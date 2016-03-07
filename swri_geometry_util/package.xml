@@ -1,4 +1,4 @@
-<package format="2">
+<package>
   <name>swri_geometry_util</name>
   <version>0.0.9</version>
   <description>
@@ -13,10 +13,17 @@
   
   <buildtool_depend>catkin</buildtool_depend>
 
-  <depend>cmake_modules</depend>
-  <depend>eigen</depend>
-  <depend>libgeos++-dev</depend>
-  <depend>libopencv-dev</depend>
-  <depend>roscpp</depend>
-  <depend>tf</depend>
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>eigen</build_depend>
+  <build_depend>libgeos++-dev</build_depend>
+  <build_depend>libopencv-dev</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+
+  <run_depend>cmake_modules</run_depend>
+  <run_depend>eigen</run_depend>
+  <run_depend>libgeos++-dev</run_depend>
+  <run_depend>libopencv-dev</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
 </package>
